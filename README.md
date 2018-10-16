@@ -25,21 +25,24 @@ command.txt file
 <p>This file is the most important. It the one that permits to map the Oric keys to your gamepad buttons.
 Any PS3 controller will do the job. Mine is a SOG wired gamepad (SOG = "spirit of gamers"). Yeah, it's a crap, but it works.</p>
 command.txt for Hopper :
-    up='
-    down=/
-    left=z
-    right=x
-    b1=1
-    b2=2
-    b3=3
-    b4=4
-    b6=p
+```
+up='
+down=/
+left=z
+right=x
+b1=1
+b2=2
+b3=3
+b4=4
+b6=p
+```
 
 ### Left field
 On the left field, just before the equal sign, you will find the controller buttons you need to map, namely :
-    up, bottom, left, right (D-Pad or Left analog)
-    b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11 and b12 (that should be enough, even if technically, it is possible to map 32 buttons).
-  
+```
+up, bottom, left, right (D-Pad or Left analog)
+b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11 and b12 (that should be enough, even if technically, it is possible to map 32 buttons).
+```
 For helping you, please, have a look :
 ![PS3 controller button map](/PS3_controller_bm.jpg)
 Another help is located at the top-left of the Oric joy windows.<br /> If your joystick is connected, text boxes representing each controller button will show up in red.
@@ -63,11 +66,17 @@ In the right field (after the equal sign), you will provide...
 
 * ...or one single char,without quote just after the equal sign, namely :
   * numbers :
-    0,1,2,3,4,5,6,7,8,9
+  ```
+  0,1,2,3,4,5,6,7,8,9
+  ```
   * alphabet :
-    a,b, .., z
+  ```
+  a,b, .., z
+  ```
   * special chars corresponding to each key of the oric keyboard :
-    [ ] ; : ' " , < . > / and ?
+  ```
+  [ ] ; : ' " , < . > / and ?
+```
 * ...specials :
   * keepdown=0 (default)/keepdown=1<p>this permits (when set to 1), to keep keys down (see crocky profile) until another direction is pressed.</p>
   * up-left, down-left, up-right, down-right : for diagonal directions (see Hu-bert profile)</p></li>
@@ -77,51 +86,59 @@ In the right field (after the equal sign), you will provide...
 ### Samples :
 The distribution already comes with game profiles, among them, you will find...<br />
 command.txt for Hopper :
-    up='
-    down=/
-    left=z
-    right=x
-    b1=1
-    b2=2
-    b3=3
-    b4=4
-    b6=p
+```
+up='
+down=/
+left=z
+right=x
+b1=1
+b2=2
+b3=3
+b4=4
+b6=p
+```
 command.txt for Hu-bert :
-    up-left=a
-    down-left=z
-    up-right=l
-    down-right=,
-    b1=1
-    b2=2
-    b3=3
-    b4=4
-    b6=p
+```
+up-left=a
+down-left=z
+up-right=l
+down-right=,
+b1=1
+b2=2
+b3=3
+b4=4
+b6=p
+```
 command.txt for Blake 7 :
-    up=up
-    down=down
-    left=left
-    right=right
-    b1=1
-    b2=2
-    b3=3
-    b4=4
-    b5=5
-    b6=6
-    b7=7
-    b8=8
-    b9=9
-    b10=esc
+```
+up=up
+down=down
+left=left
+right=right
+b1=1
+b2=2
+b3=3
+b4=4
+b5=5
+b6=6
+b7=7
+b8=8
+b9=9
+b10=esc
+```
 command.txt for Crocky
-    up=p
-    down=l
-    left=a
-    right=s
-    b1=space
-    b2=space
-    b3=space
-    b4=space
-    b10=space
-    keepdown=1
+```
+up=p
+down=l
+left=a
+right=s
+b1=space
+b2=space
+b3=space
+b4=space
+b10=space
+keepdown=1
+```
 
 Enjoy,
 Chloe Avrillon
