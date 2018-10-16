@@ -30,30 +30,34 @@ Any PS3 controller will do the job. Mine is a SOG wired gamepad (SOG = "spirit o
 - b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11 and b12 (that should be enough, even if technically, it is possible to map 32 buttons).
   
 <p>For helping you, please, have a look :<br />
-![PS3 controller button map](/PS3_controller_bm.jpg)<br />
+![PS3 controller button map](/PS3_controller_bm.jpg)
 Another help is located at the top-left of the Oric joy windows. If your joystick is connected, text boxes representing each controller button will show up in red.</p>
 
 <p>In the right field (after the equal sign), you will provide...<br />
-    ... either one of those Special keys :</p>
-	up<br />
-	down<br />
-	left<br />
-	right<br />
-	space<br />
-	del<br />
-	ctrl<br />
-	return<br />
-	shift (stands for left shift)<br />
-	lshift (left shit)<br />
-	rshift (right shift)<br />
-	esc
+* <p>... either one of those Special keys :<br />
+  * up<br />
+  * down<br />
+  * left<br />
+  * right<br />
+  * space<br />
+  * del<br />
+  * ctrl<br />
+  * return<br />
+  * shift (stands for left shift)<br />
+  * lshift (left shit)<br />
+  * rshift (right shift)<br />
+  * esc<br /></p>
 
-<p>...or one single char:<br />Without quote just after the equal sign, namely :</p>
-- numbers : 0,1,2,3,4,5,6,7,8,9
-- alphabet : a,b, .., z
-- special chars corresponding to each key of the oric keyboard : [ ] ; : ' " , < . > / and ?
+* <p>...or one single char:<br />Without quote just after the equal sign, namely :<br />
+  * numbers :
+    0,1,2,3,4,5,6,7,8,9
+  * alphabet :
+    a,b, .., z
+  * special chars corresponding to each key of the oric keyboard :
+    [ ] ; : ' " , < . > / and ?
+</p>
 
-<p>...specials :<br />
+  * <p>...specials :<br />
 <ul>
 <li><p>keepdown=0 (default)/keepdown=1</p>
 <p>this permits (when set to 1), to keep keys down (see crocky profile) until another direction is pressed.</p></li>
