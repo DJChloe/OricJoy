@@ -1,15 +1,15 @@
 Oric Joy v1.5
 =============
 **Oric Joy** is a portable front-end for the **Oricutron** Emulator that permit you to play oric games, with your gamepad.
-![OricJoy screen shot](/screenshot.png)
-#In OricJoy Itself :
+![OricJoy screen shot](/screenshot.jpg)
+### In OricJoy Itself :
 - select "D-Pad" (default) if you use the direction pad of a gamepad (the dirrectional cross, such like a vintage nintendo controler)
   or select analog if you use an analog joystick or if you prefer to use the left analog stick of a gamepad.
 - If you click once on a game thumbnail, the teaser is displayed in the bottom part.
 - Double click on a game to launch it in oricutron.
 - In oricutron, if you want to quit, right click with your mouse and select quit in the menu.
 
-#In the "games" directory, 
+### In the "games" directory, 
 you will find the game profiles.
 - Each profile is a sub-directory.
 - The name of the sub-directory will appear in Oric Joy as the name of the game ("4K Kong, Hopper,...")
