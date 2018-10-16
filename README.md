@@ -75,7 +75,7 @@ In the right field (after the equal sign), you will provide...
       Note: the file is not case sensitive, you can write everything in lower or upper case.
 
 ### Samples :
-The distribution already comes with game profiles, among them, you will find...
+The distribution already comes with game profiles, among them, you will find...<br />
 command.txt for Hopper :
     up='
     down=/
@@ -111,7 +111,7 @@ command.txt for Blake 7 :
     b8=8
     b9=9
     b10=esc
-commad.txt for Crocky
+command.txt for Crocky
     up=p
     down=l
     left=a
