@@ -26,40 +26,39 @@ command.txt file
 Any PS3 controller will do the job. Mine is a SOG wired gamepad (SOG = "spirit of gamers"). Yeah, it's a crap, but it works.</p>
 
 <p>On the left field, just before the equal sign, you will find the controller buttons you need to map, namely :</p>
-  - up, bottom, left, right (D-Pad or Left analog)
-  - b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11 and b12 (that should be enough, even if technically, it is possible to map 32 buttons).
+- up, bottom, left, right (D-Pad or Left analog)
+- b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11 and b12 (that should be enough, even if technically, it is possible to map 32 buttons).
   
-<p>For helping you, see the PS3_controller Button map.jpg file.</p>
-![PS3 controller button map](/PS3_controller Button map.jpg)
-<p>Another help is located at the top-left of the Oric joy windows. If your joystick is connected, text boxes representing each controller button will show up in red.</p>
+<p>For helping you, please, have a look :<br />
+![PS3 controller button map](/PS3_controller_bm.jpg)<br />
+Another help is located at the top-left of the Oric joy windows. If your joystick is connected, text boxes representing each controller button will show up in red.</p>
 
-In the right field (after the equal sign), you will provide...
-    ... either one of those Special keys :
-	up
-	down
-	left
-	right
-	space
-	del
-	ctrl
-	return
-	shift (stands for left shift)
-	lshift (left shit)
-	rshift (right shift)
+<p>In the right field (after the equal sign), you will provide...<br />
+    ... either one of those Special keys :</p>
+	up<br />
+	down<br />
+	left<br />
+	right<br />
+	space<br />
+	del<br />
+	ctrl<br />
+	return<br />
+	shift (stands for left shift)<br />
+	lshift (left shit)<br />
+	rshift (right shift)<br />
 	esc
 
-<p>...or one single char:</p>
-<p>		Without quote just after the equal sign, namely :</p>
+<p>...or one single char:<br />Without quote just after the equal sign, namely :</p>
 - numbers : 0,1,2,3,4,5,6,7,8,9
 - alphabet : a,b, .., z
 - special chars corresponding to each key of the oric keyboard : [ ] ; : ' " , < . > / and ?
 
-<p>...specials :</p>
+<p>...specials :<br />
 <ul>
 <li><p>keepdown=0 (default)/keepdown=1</p>
 <p>this permits (when set to 1), to keep keys down (see crocky profile) until another direction is pressed.</p></li>
 <li><p>up-left, down-left, up-right, down-right : for diagonal directions (see Hu-bert profile)</p></li>
-</ul>
+</ul></p>
 
       Note: the file is not case sensitive, you can write everything in lower or upper case.
 
