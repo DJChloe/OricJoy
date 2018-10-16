@@ -76,7 +76,7 @@ In the right field (after the equal sign), you will provide...
   * special chars corresponding to each key of the oric keyboard :
   ```
   [ ] ; : ' " , < . > / and ?
-```
+  ```
 * ...specials :
   * keepdown=0 (default)/keepdown=1<p>this permits (when set to 1), to keep keys down (see crocky profile) until another direction is pressed.</p>
   * up-left, down-left, up-right, down-right : for diagonal directions (see Hu-bert profile)</p></li>
