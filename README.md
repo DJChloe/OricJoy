@@ -14,11 +14,11 @@ you will find the game profiles.
 - Each profile is a sub-directory.
 - The name of the sub-directory will appear in Oric Joy as the name of the game ("4K Kong, Hopper,...")
 - in a sub-directory profile, 3 files are required and 1 is optional :
-	- command.txt (see details below)
-        - a graphic file (for the inlay, name is not important, but the extension CAN BE .jpg, .jpeg, .png or .bmp )
+  - command.txt (see details below)
+  - a graphic file (for the inlay, name is not important, but the extension CAN BE .jpg, .jpeg, .png or .bmp )
           this file can be a screenshot, or a tape-box-cover scan.
-        - a .tap or a .dsk file
-        - teaser.txt is a short explanation text about the game, this is an optional file
+  - a .tap or a .dsk file
+  - teaser.txt is a short explanation text about the game, this is an optional file
    
 command.txt file
 ----------------
@@ -48,7 +48,7 @@ For helping you, please, have a look :
 Another help is located at the top-left of the Oric joy windows.<br /> If your joystick is connected, text boxes representing each controller button will show up in red.
 
 ### Right field
-In the right field (after the equal sign), you will provide...
+In the right field (after the equal sign), you will provide the Oric keys required by the game...
 * ... either one of those Special keys :
   * up
   * down
