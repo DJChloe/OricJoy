@@ -33,22 +33,23 @@ Any PS3 controller will do the job. Mine is a SOG wired gamepad (SOG = "spirit o
 ![PS3 controller button map](/PS3_controller_bm.jpg)
 Another help is located at the top-left of the Oric joy windows. If your joystick is connected, text boxes representing each controller button will show up in red.</p>
 
-<p>In the right field (after the equal sign), you will provide...<br />
-* <p>... either one of those Special keys :<br />
-  * up<br />
-  * down<br />
-  * left<br />
-  * right<br />
-  * space<br />
-  * del<br />
-  * ctrl<br />
-  * return<br />
-  * shift (stands for left shift)<br />
-  * lshift (left shit)<br />
-  * rshift (right shift)<br />
-  * esc<br /></p>
+<p>In the right field (after the equal sign), you will provide...</p>
+* ... either one of those Special keys :
+  * up
+  * down
+  * left
+  * right
+  * space>
+  * del
+  * ctrl
+  * return
+  * shift (stands for left shift)
+  * lshift (left shit)
+  * rshift (right shift)
+  * esc
+  </p>
 
-* <p>...or one single char:<br />Without quote just after the equal sign, namely :<br />
+* ...or one single char,without quote just after the equal sign, namely :
   * numbers :
     0,1,2,3,4,5,6,7,8,9
   * alphabet :
