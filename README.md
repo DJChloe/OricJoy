@@ -1,6 +1,7 @@
 Oric Joy v1.5
 =============
-**Oric Joy** will is a front-end for the **Oricutron** Emulator that permit you to play oric games, with your gamepad
+**Oric Joy** is a portable front-end for the **Oricutron** Emulator that permit you to play oric games, with your gamepad.
+![OricJoy screen shot](/screenshot.png)
 #In OricJoy Itself :
 - select "D-Pad" (default) if you use the direction pad of a gamepad (the dirrectional cross, such like a vintage nintendo controler)
   or select analog if you use an analog joystick or if you prefer to use the left analog stick of a gamepad.
@@ -61,13 +62,15 @@ In the right field (after the equal sign), you will provide...
 
 Enjoy,
 Chloe Avrillon
+## How to play :
+The release can be find in the binaries folder (zip file).
+Just unzip and launch OricJoy.exe (OricJoy is portable, it means that it does not have to be installed in a particular folder : running it from the desktop or an USB Key is OK)
+Select a game, double-click.
+o exit the emulator, right-click while in emulation session to show up the emulator menu.
 
 ## How to compile :
 The source code can be compiled with Delphi Community (2018 version) or Delphi Tokyo, that can be downloaded on the [Embarcadero web site](https://www.embarcadero.com/products/delphi/starter).
 You can compile this tool for windows 32 bits (compatible with all windows versions from XP to Windows 10, 32 and 64 bits), or you can also compile the sources for Win 64.
-## Binaries
-The release can be find in the binaries folder (zip file).
-Just unzip and launch OricJoy.exe (OricJoy is portable, it means that it does not have to be installed in a particular folder : running it from the desktop or an USB Key is OK)
 
 ## Oricutron
 Oricutron is an open source portable Oric-1/Atmos/Telestrat and Pravetz 8D emulator.
