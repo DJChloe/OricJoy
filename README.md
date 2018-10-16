@@ -22,14 +22,16 @@ you will find the game profiles.
    
 command.txt file
 ----------------
-This file is the most important. It the one that permits to map the Oric keys to your gamepad buttons.
-Any ps3 controller will do the job. Mine is a SOG wired gamepad (SOG = "spirit of gamers"). Yeah, it's a crap, but it works.
-On the left field, just before the equal sign, you will find the controller buttons you need to map, namely :
-  - up,bottom,left,right (D-Pad or Left analog)
-  - b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11 and b12 (that should be enough, even if technically, it is possible to map 32 buttons).
+<p>This file is the most important. It the one that permits to map the Oric keys to your gamepad buttons.
+Any PS3 controller will do the job. Mine is a SOG wired gamepad (SOG = "spirit of gamers"). Yeah, it's a crap, but it works.</p>
+
+<p>On the left field, just before the equal sign, you will find the controller buttons you need to map, namely :</p>
+  - up, bottom, left, right (D-Pad or Left analog)
+  - b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11 and b12 (that should be enough, even if technically, it is possible to map 32 buttons).
   
-For helping you, see the PS3_controller Button map.jpg file.
-Another help is located at the top-left of the Oric joy windows. If your joystick is connected, text boxes representing each controller button will show up in red.
+<p>For helping you, see the PS3_controller Button map.jpg file.</p>
+![PS3 controller button map](/PS3_controller Button map.jpg)
+<p>Another help is located at the top-left of the Oric joy windows. If your joystick is connected, text boxes representing each controller button will show up in red.</p>
 
 In the right field (after the equal sign), you will provide...
     ... either one of those Special keys :
@@ -46,19 +48,69 @@ In the right field (after the equal sign), you will provide...
 	rshift (right shift)
 	esc
 
-   ...or one single char:
-      Without quote just after the equal sign, namely :
-         - numbers : 0,1,2,3,4,5,6,7,8,9
-         - alphabet : a,b, .., z
-         - special chars corresponding to each key of the oric keyboard : [ ] ; : ' " , < . > / and ?
+<p>...or one single char:</p>
+<p>		Without quote just after the equal sign, namely :</p>
+- numbers : 0,1,2,3,4,5,6,7,8,9
+- alphabet : a,b, .., z
+- special chars corresponding to each key of the oric keyboard : [ ] ; : ' " , < . > / and ?
 
-   ...specials
-      - keepdown=0 (default)/keepdown=1
-           this permits (when set to 1), to keep keys down (see crocky profile) until another direction is pressed.
-      - up-left, down-left, up-right, down-right : for diagonal directions (see Hu-bert profile)
+<p>...specials :</p>
+<ul>
+<li><p>keepdown=0 (default)/keepdown=1</p>
+<p>this permits (when set to 1), to keep keys down (see crocky profile) until another direction is pressed.</p></li>
+<li><p>up-left, down-left, up-right, down-right : for diagonal directions (see Hu-bert profile)</p></li>
+</ul>
 
       Note: the file is not case sensitive, you can write everything in lower or upper case.
 
+###Samples :
+<p>The distribution already comes with game profiles, among them, you will find...</p>
+command.txt for Hopper :
+    up='
+    down=/
+    left=z
+    right=x
+    b1=1
+    b2=2
+    b3=3
+    b4=4
+    b6=p
+command.txt for Hu-bert :
+    up-left=a
+    down-left=z
+    up-right=l
+    down-right=,
+    b1=1
+    b2=2
+    b3=3
+    b4=4
+    b6=p
+command.txt for Blake 7 :
+    up=up
+    down=down
+    left=left
+    right=right
+    b1=1
+    b2=2
+    b3=3
+    b4=4
+    b5=5
+    b6=6
+    b7=7
+    b8=8
+    b9=9
+    b10=esc
+commad.txt for Crocky
+    up=p
+    down=l
+    left=a
+    right=s
+    b1=space
+    b2=space
+    b3=space
+    b4=space
+    b10=space
+    keepdown=1
 
 Enjoy,
 Chloe Avrillon
@@ -73,15 +125,15 @@ The source code can be compiled with Delphi Community (2018 version) or Delphi T
 You can compile this tool for windows 32 bits (compatible with all windows versions from XP to Windows 10, 32 and 64 bits), or you can also compile the sources for Win 64.
 
 ## Oricutron
-Oricutron is an open source portable Oric-1/Atmos/Telestrat and Pravetz 8D emulator.
-[Oricutron Github](https://github.com/pete-gordon/oricutron)
-**OricJoy** already includes this emulator (v1.2, for windows)
+<p>Oricutron is an open source portable Oric-1/Atmos/Telestrat and Pravetz 8D emulator.</p>
+<p>[Oricutron Github](https://github.com/pete-gordon/oricutron)</p>
+<p>**OricJoy** already includes this emulator (v1.2, for windows)</p>
 
-Oricutron binaries are available for various OSes :
-http://www.petergordon.org.uk/oricutron/
+<p>Oricutron binaries are available for various OSes :</p>
+<p>http://www.petergordon.org.uk/oricutron/</p>
 
-For an Android version of **Oricutron**, please have a look to this forum thread :
-http://forum.defence-force.org/viewtopic.php?f=22&t=1097&p=18212&hilit=android#p18212
+<p>For an Android version of **Oricutron**, please have a look to this forum thread :</p>
+<p>http://forum.defence-force.org/viewtopic.php?f=22&t=1097&p=18212&hilit=android#p18212</p>
 
 ## LICENCE
 GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
