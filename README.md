@@ -22,8 +22,8 @@ you will find the game profiles.
    
 command.txt file
 ----------------
-<p>This file is the most important. It the one that permits to map the Oric keys to your gamepad buttons.
-Any PS3 controller will do the job. Mine is a SOG wired gamepad (SOG = "spirit of gamers"). Yeah, it's a crap, but it works.</p>
+This file is the most important. It the one that permits to map the Oric keys to your gamepad buttons.
+Any PS3 controller will do the job. Mine is a SOG wired gamepad (SOG = "spirit of gamers"). Yeah, it's a crap, but it works.<br />
 command.txt for Hopper :
 ```
 up='
@@ -54,7 +54,7 @@ In the right field (after the equal sign), you will provide...
   * down
   * left
   * right
-  * space>
+  * space
   * del
   * ctrl
   * return
