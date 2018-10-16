@@ -68,14 +68,9 @@ In the right field (after the equal sign), you will provide...
     a,b, .., z
   * special chars corresponding to each key of the oric keyboard :
     [ ] ; : ' " , < . > / and ?
-</p>
-
-  * <p>...specials :<br />
-<ul>
-<li><p>keepdown=0 (default)/keepdown=1</p>
-<p>this permits (when set to 1), to keep keys down (see crocky profile) until another direction is pressed.</p></li>
-<li><p>up-left, down-left, up-right, down-right : for diagonal directions (see Hu-bert profile)</p></li>
-</ul></p>
+* ...specials :
+  * keepdown=0 (default)/keepdown=1<p>this permits (when set to 1), to keep keys down (see crocky profile) until another direction is pressed.</p>
+  * up-left, down-left, up-right, down-right : for diagonal directions (see Hu-bert profile)</p></li>
 
       Note: the file is not case sensitive, you can write everything in lower or upper case.
 
